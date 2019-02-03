@@ -6,6 +6,9 @@ DefaultContentLanguage = "de"
 Paginate = 9
 
 [params]
+  background_color_class = "bg-gray"
+  body_classes = "avenir bg-light-yellow"
+  featured_image = "/images/loeppt.png"
 
 [languages]
   [languages.de]
