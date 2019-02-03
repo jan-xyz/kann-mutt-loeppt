@@ -1,0 +1,26 @@
+baseURL = "https://kann-mutt-loeppt.de"
+languageCode = "de-de"
+title = "BSC und weitere Reisen"
+theme = "gohugo-theme-ananke"
+DefaultContentLanguage = "de"
+Paginate = 9
+
+[params]
+
+[languages]
+  [languages.de]
+    title = "BSC und weitere Reisen"
+    weight = 1
+    languageName = "Deutsch"
+    [[languages.de.menu.main]]
+    url    = "/de/"
+    name   = "Startseite"
+    weight = 10
+  [languages.en]
+    title = "BSC und other journeys"
+    weight = 2
+    languageName = "English"
+    [[languages.en.menu.main]]
+    url    = "/en/"
+    name   = "Home"
+    weight = 10
